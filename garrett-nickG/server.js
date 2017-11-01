@@ -1,16 +1,6 @@
 'use-strict'
 const express = require('express');
 const app = express();
-//
-// app.use(express.static('./public'));
-//
-// app.get('/', function(req, res){
-//   console.log('In the terminal');
-//   res.send('WORKS');
-// });
-//
-// app.listen(PORT, function(){})
-
 // DONEZO: Initialize your project using NPM to create and populate  package.json and package-lock.json files. Don't forget to add node_modules to your .gitignore!
 
 // DONEZO: Require the ExpressJS package that you installed via NPM, and instantiate the app.
@@ -24,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 // COMMENT: Why are our files in a "public" directory now? How does ExpressJS serve files?
-// ExpressJS serves files to
+// ExpressJS serves files specifically from a public directory. It doesn't touch the rest.
 
 // DONEZO: Refactor to use arrow function
 
