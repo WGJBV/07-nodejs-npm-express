@@ -77,24 +77,28 @@ _Your README.md must include:_
 ```md
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Nick Gibson, Garrett Johnson
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This is a blog application that can now communicate with the middleware.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Install the express package as a dependency on nodeJs
+2. Include all the static resources
+3. Refactor some functions into arrow functions
+4. Write a new route that will redirect the user from /new to /new.html
+5. Do some more refactoring
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+We used jQuery, NodeJS, WRRC and body-parse
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
-
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+11/01/2017 9:00am - Somehow we don't pull down the server.js file with all the TODO's
+11/01/2017 11:00am - Finally start the ACTUAL lab
+11/01/2017 11:10am - Got everything instantiated and installed
+11/01/2017 11:30am - Refactor functions into arrow functions
+11/01/2017 11:40am - Write a new route that will redirect the user from /new to /new.html
+11/01/2017 12:00am - Add some finishing touches
 -->
 ```
